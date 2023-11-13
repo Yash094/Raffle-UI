@@ -1,0 +1,56 @@
+{
+  "author" :"Yash094",
+  "name": "raffle-app-frontend",
+  "license": "MIT", 
+  "homepage": "/",
+  "version": "0.0.1-beta",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/poppins": "^5.0.8",
+    "@thirdweb-dev/react": "^4",
+    "@thirdweb-dev/sdk": "^4",
+    "assert": "^2.0.0",
+    "browserify-zlib": "latest",
+    "ethers": "^5",
+    "framer-motion": "^10.16.4",
+    "http": "npm:http-browserify",
+    "http-browserify": "latest",
+    "https": "npm:https-browserify",
+    "https-browserify": "latest",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "react": "^18.2",
+    "react-dom": "^18.2",
+    "react-router-dom": "^6.18.0",
+    "react-scripts": "^5.0.1",
+    "sort-by": "^1.2.0",
+    "stream": "^0.0.2",
+    "url": "latest",
+    "web-vitals": "^3.1.0",
+    "zlib": "npm:browserify-zlib"
+  },
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

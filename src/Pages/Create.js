@@ -19,7 +19,15 @@ import {
 import Nav from "../components/Nav";
 
 export default function CreatePage() {
-  const [raffle, setRaffle] = useState([]);
+  const [raffle, setRaffle] = useState({
+    maxTickets: 0,
+    ticketPrice: 0,
+    nftContract: "",
+    tokenId: 0,
+    endTimestamp: "",
+    raffleCurrency: "native", // Set the default value to "native"
+    ercAddress: "",
+  });
   const sdk = useSDK();
   const address = useAddress();
 

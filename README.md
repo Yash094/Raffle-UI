@@ -74,4 +74,4 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 For any inquiries or collaboration, you can reach us through:
 
-- Discord: yash094
+- Discord: yash094 / yashjoisar
